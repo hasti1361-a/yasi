@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing:border-box  
+}
+
+aside{
+    width: 20%;
+    height: 400px;
+    
+    background-color:white;
+    position: fixed;
+    transform: translateX(-100%);
+    top: 0;
+    left: 0;
+}
+aside>nav{
+    width: 100%;
+    height: 100%;
+
+}
+
+aside>nav>ul{
+    width: 100%;
+    height: 100%;
+
+}
+aside>nav>ul>li{
+    width: 100%;
+    height: 10%;
+}
+aside>nav>ul>li>a{
+    color: black;
+}
+ 
+aside>nav>ul>li>a:hover{
+    background-color:chartreuse;
+
+}
+
+#open-menu:checked~aside{
+    transform: translateX(0);
+}
+#open-menu,#close-menu{
+    display: none;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Screenshot_۲۰۲۴۱۱۰۴-۲۳۰۹۴۶_Gallery.jpg);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    padding-bottom: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.label{
+    padding-bottom: 250px;
+    padding-right: 400px;
+}
+.label>i{
+    color: green;
+    padding-right: 900px;
+}
+.main>h1{
+    color: green;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+.main>p{
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+
+}
+.main>button{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    
+}
+.main>button:hover{
+   opacity: 0.5;
+}
+.card{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(194, 221, 212);
+    
+}
+.card-1:hover{
+    transform: translatey(5px);
+}
+.card-1>i{
+    color: forestgreen;
+    font-size: 1.2rem;
+    padding-top: 60px;
+}
+.card-1>h2{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.card-2{
+    width: 30%;
+    height: 100%;
+    background-color:whitesmoke;
+}
+.card-2:hover{
+    transform: translateY(5px);
+}
+.card-2>i{
+    color: green;
+    font-size: 1.2rem;
+    padding-top: 60px;
+}
+.card-2>h1{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-3{
+    width: 30%;
+    height: 100%;
+    background-color:whitesmoke;
+}
+.card-3:hover{
+    transform: translateY(5px);
+}
+.card-3>i{
+    color: green;
+    font-size: 1.2rem;
+    padding-top: 60px;
+}
+.card-3>h5{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-4{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(194,221,212);   
+}
+.card-4:hover{
+    transform: translatex(5px);
+}
+.card-4>i{
+    color: green;
+    font-size: 1.2rem;
+    padding-top: 60px;
+}
+.card-4>h4{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.img{
+    width: 50%;
+    height:100%;
+}
+.img>img{
+    width: 100%;
+}
+.img>img:hover{
+  opacity: 0.5;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text>h2{
+    color: green;
+    padding-top: 40px;
+}
+.text>h3{
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+.text>p{
+    padding-bottom: 10px;
+
+}
+.btn{
+    padding-right: 300px;
+    
+}
+.btn>button:hover{
+    opacity: 0.5;
+}
+.btn>button{
+    padding: 3px 5px;
+    background-color: green;
+    color: white;
+}
+.mosh{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+}
+.aks{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    
+    
+}
+.t-t{
+    width: 40%;
+    height: 100%;
+}
+.t-t>h2{
+    color: green;
+    font-size: 1.2rem;
+    padding-top: 200px;padding-left: 10px;
+}
+.t-t>h3{
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.t-t>p{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.b-t{
+    padding-left: 10px;
+  
+}
+.b-t>button{
+    background-color: green;
+    padding: 3px 5px;
+    color: white;
+
+}
+.b-t>button:hover{
+    opacity: 0.5;
+}
+.i-1{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.i-1>img{
+    width: 100%;
+    height: 100%;
+
+}
+.i-1>h3{
+    color: green;
+}
+.i-2{
+    width: 50%;
+    height: 100%;
+}
+.i-2>img{
+    width: 100%;
+    height: 100%;
+}
+.i-2>h3{
+    color: green;
+}
+.i-3{
+    width: 50%;
+    height: 100%;
+}
+.i-3>img{
+    width: 100%;
+    height: 100%;
+}
+.i-3>h4{
+    color: green;
+}
+.m-m{
+    width: 100%;
+    height: 700px;
+}
+.l-l{
+    width: 100%;
+    height: 50px;
+    padding-left: 600px;
+    
+    padding-top: 90px;
+    
+
+}
+.l-l>h4{
+    color: green;
+    font-size: 1.2rem;
+    padding-left: 30px;
+}
+.l-l>h1{
+    font-size:1.4rem ;
+}
+.n-n{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 227, 231);
+
+}
+.n-1{
+    width: 30%;
+    height: 100%;
+    padding-top: 100px;
+}
+.n-1:hover{
+    transform: translateY(-5px);
+}
+.n-1>h1{
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+.n-1>img{
+    width: 100%;
+    height: 200px;
+
+}
+.n-1>i{
+    color: green;
+    padding-left: 100px;
+    
+    font-size: 1.2rem;
+}
+.n-1>button{
+    background-color: green;
+    padding: 3px 5px;
+    
+}
+.n-2{
+    width: 30%;
+    height: 100%;
+    padding-top: 100px;
+    
+}
+.n-2:hover{
+    transform: translateY(-5px);
+}
+.n-2>h1{
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+.n-2>i{
+    color: green;
+    font-size: 1.2rem;
+    padding-left: 100px;
+}
+.n-2>img{
+    width: 100%;
+    height: 200px;
+}
+.n-2>button{
+    background-color: green;
+    padding: 3px 5px;
+}
+.n-3{
+    width: 30%;
+    height: 100%;
+    padding-top: 100px;
+}
+.n-3:hover{
+    transform: translateY(-5px);
+}
+.n-3>h1{
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+.n-3>i{
+    color: green;
+    font-size: 1.2rem;
+    padding-left: 100px;
+}
+.n-3>img{
+    width: 100%;
+    height: 200px;
+}
+.n-3>button{
+    background-color: green;
+    padding: 3px 5px;
+}
+.hektor{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(215, 223, 223);
+}
+.hektor-1{
+    width: 50%;
+    height: 100%;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.hektor-1>h1{
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.hektor-1>h3{
+    font-size: 1rem;padding-left: 20px;
+    padding-bottom: 10px;
+}
+.hektor-2{
+    display: flex;
+    padding-left: 20px;
+}
+.hektor-2>i{
+    color: green;
+}
+.hektor-2>p{
+    color: green;
+}
+.hektor-3{
+    display: flex;
+    padding-left: 20px;
+}
+.hektor-3>h2{
+    font-size: 1rem;
+}
+.hektor-3>i{
+    color: green;
+}
+.hektor-3>h2{
+    color: green;
+}
+.hektor-4{
+    display: flex;
+    padding-left: 20px;
+}
+.hektor-4>h2{
+    font-size: 1rem;
+}
+.hektor-4>i{
+    color: green;
+
+}
+.hektor-4>h2{
+    color: green;
+}
+.form{
+    width: 50%;
+    height: 100%;
+    padding-right: 150px;
+    
+}
+.form>p{
+    padding-left:200px;
+    padding-top: 50px;
+}
+.dokme{
+    background-color: green;
+    padding-left: 50px;
+}
+.dokme>button{
+    color: white;
+    background-color: green;
+}
+.dokme>button:hover{
+    opacity: 0.5;
+}
+.form-1{
+    flex-direction: column;
+    padding-top: 20px;
+}
+.for-1{
+    width: 100%;
+
+    overflow: hidden;
+}
+.for-1:hover{
+    overflow: visible;
+}
+
+
+.for-2{
+    width: 100%;
+}
+.for-3{
+    width: 100%;
+}
+.ico{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+.ico-1{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   gap: 20px;
+   padding-top: 60px;
+}
+.ico-1>i{
+    color: white;
+    font-size: 1.3rem;
+}
+.ico-1>i:hover{
+    color: green;
+}
+.sh{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.sh>h4{
+    color: white;
+}
+.sh>p{
+    color: green;
+}
+.sh>h5{
+    color: white;
+}
+
+
+
+    
+    
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
